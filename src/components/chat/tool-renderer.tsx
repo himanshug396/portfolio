@@ -1,7 +1,7 @@
 // src/components/chat/tool-renderer.tsx
 import { Contact } from '../contact';
 import Crazy from '../crazy';
-import GigsCard from '../InternshipCard';
+import GigsCard from '../GigsCard';
 import { Presentation } from '../presentation';
 import AllProjects from '../projects/AllProjects';
 import Resume from '../resume';
