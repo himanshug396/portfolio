@@ -100,9 +100,9 @@ export default function Home() {
           data-color-scheme="no-preference: light; light: light; dark: light_high_contrast;"
           data-size="large"
           data-show-count="true"
-          aria-label="Simple Non-AI Portfolio"
+          aria-label="Simple Portfolio"
         >
-          Non-AI Portfolio
+        Traditional Portfolio
         </Button>
       </div>
 
@@ -147,7 +147,8 @@ export default function Home() {
           width={2000}
           height={2000}
           priority
-          className="translate-y-14 scale-[2] object-cover"
+          className="scale-[1] object-cover"
+          style={{borderRadius: "150px"}}
         />
       </div>
 
