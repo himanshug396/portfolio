@@ -102,7 +102,7 @@ export default function Home() {
           data-show-count="true"
           aria-label="Simple Portfolio"
         >
-        Traditional Portfolio
+        Traditional Portfolio ➜
         </Button>
       </div>
 
