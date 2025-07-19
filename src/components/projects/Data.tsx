@@ -31,23 +31,23 @@ const PROJECT_CONTENT = [
       },
       {
         name: 'Launch Video',
-        url: 'https://www.youtube.com/watch?v=4QUE2KgKDUw',
+        url: 'https://www.youtube.com/', // Replace with your own
       },
       {
         name: 'X',
-        url: 'https://x.com/chainSynto',
+        url: 'https://x.com/', // Replace with your own
       },
       {
         name: 'Technical Video',
-        url: 'https://www.youtube.com/watch?v=1CjBLKPUwtA&feature=youtu.be',
+        url: 'https://www.youtube.com/', // Replace with your own
       },
       {
         name: 'Pitch Deck',
-        url: 'https://drive.google.com/file/d/1B3m44mEgv81rJHfjNfTKi147yX4raQed/view?usp=sharing',
+        url: '#', // Replace with your own
       },
       {
         name: 'Usage tutorial',
-        url: 'https://www.youtube.com/watch?v=PRu1cfvT2bA',
+        url: 'https://www.youtube.com/', // Replace with your own
       }
     ],
     images: [

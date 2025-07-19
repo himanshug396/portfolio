@@ -7,34 +7,23 @@ import { ChevronRight } from 'lucide-react';
 export function Contact() {
   // Contact information
   const contactInfo = {
-    name: 'Raphael Giraud',
-    email: 'raphaelgiraud12@gmail.com',
-    handle: '@Raphael.Giraud',
+    name: 'Himanshu Gupta',
+    email: 'himanshu@example.com', // Replace with your real email
+    handle: '@himanshugupta',
     socials: [
       {
         name: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/raphael-giraud-60939519a/',
+        url: 'https://www.linkedin.com/in/himanshu-gupta/',
       },
       {
-        name: 'Youtube',
-        url: 'https://www.youtube.com/@toukoum',
+        name: 'GitHub',
+        url: 'https://github.com/himanshugupta',
       },
       {
-        name: 'Instagram',
-        url: 'https://www.instagram.com/raphael.giraud/',
+        name: 'Twitter',
+        url: 'https://twitter.com/himanshugupta',
       },
-      {
-        name: 'Discord',
-        url: 'https://discord.com/users/toukoum',
-      },
-      {
-        name: 'Github',
-        url: 'https://github.com/toukoum',
-      },
-      {
-        name: 'X',
-        url: 'https://x.com/toukoumcode',
-      },
+      // Add more socials as needed
     ],
   };
 

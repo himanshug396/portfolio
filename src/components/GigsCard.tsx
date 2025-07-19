@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 import { CalendarDays, Code2, Globe } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
-const InternshipCard = () => {
+const GigsCard = () => {
   const openMail = () => {
-    window.open('mailto:raphaelgiraud12@gmail.com', '_blank');
+    window.open('mailto:himanshugupta396+ai@gmail.com', '_blank'); // Replace with your real email
   };
   const router = useRouter();
 
@@ -23,18 +23,15 @@ const InternshipCard = () => {
           {/* Avatar placeholder */}
           <div className="bg-muted h-16 w-16 overflow-hidden rounded-full shadow-md">
             <img
-              src="/avatar-raphael.jpg"
-              alt="Raphael's avatar"
+              src="/avatar-landing.png" // Replace with your own image
+              alt="Himanshu's avatar"
               className="h-full w-full object-cover"
             />
           </div>
           <div>
             <h2 className="text-foreground text-2xl font-semibold">
-              Raphael Giraud
+              Himanshu Gupta
             </h2>
-            <p className="text-muted-foreground text-sm">
-              Intership Application
-            </p>
           </div>
         </div>
 
@@ -66,7 +63,7 @@ const InternshipCard = () => {
           <div>
             <p className="text-foreground text-sm font-medium">Location</p>
             <p className="text-muted-foreground text-sm">
-              Preferably San Francisco 🇺🇸
+              Preferably Remote 🌍
             </p>
           </div>
         </div>
@@ -79,9 +76,9 @@ const InternshipCard = () => {
             <div className="text-muted-foreground grid grid-cols-1 gap-y-1 text-sm sm:grid-cols-2">
               <ul className="decoration-none list-disc pl-4">
                 <li>Python, Next.js, TypeScript, Tailwind CSS</li>
-                <li>Vercel AI SDK, Supabase, Prisma</li>
-                <li>OpenAI, Mistral, Claude, Whisper</li>
+                <li>OpenAI, Supabase, Prisma</li>
                 <li>Prompt engineering, fine-tuning</li>
+                <li>Hackathons + AI workflows</li>
               </ul>
               <ul className="list-disc pl-4">
                 <li>Weaviate, Pinecone, vector DBs</li>
@@ -108,9 +105,7 @@ const InternshipCard = () => {
           What I bring
         </p>
         <p className="text-foreground text-sm">
-          Real-world AI dev experience from Lighton (MCP, secure GPTs, RAG
-          pipelines). <br /> 3x hackathon wins (ETH Oxford, Paris Blockchain
-          Week, Colosseum Breakout on Solana). <br /> I ship fast, and love
+          Real-world AI dev experience. <br /> I ship fast, and love
           building useful things that actually work.
         </p>
       </div>
@@ -138,4 +133,4 @@ const InternshipCard = () => {
   );
 };
 
-export default InternshipCard;
+export default GigsCard;

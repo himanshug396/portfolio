@@ -5,10 +5,10 @@
 # World's first AI portfolio 🤖✨  
 
 **Static portfolios are dead.**  
-So I built [toukoum.fr](https://toukoum.fr).
+So I built [Himanshu Gupta]().
 
-Instead of making you scroll endlessly, my portfolio adapts to *you*.  
-Ask a question — my AI avatar replies instantly.
+Instead of making you scroll endlessly, this portfolio adapts to *you*.  
+Ask a question — the AI avatar replies instantly.
 
 ## 👇 What can you ask?
 
@@ -21,10 +21,7 @@ Ask a question — my AI avatar replies instantly.
 This is not a portfolio.  
 It’s a **conversation tailored to your curiosity**.
 
-➡️ **Try it now:** [https://toukoum.fr](https://toukoum.fr)  
 *What will you ask?*
-
-
 
 #### 🔖 Tags
 
