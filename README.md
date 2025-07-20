@@ -23,6 +23,3 @@ It’s a **conversation tailored to your curiosity**.
 
 *What will you ask?*
 
-#### 🔖 Tags
-
-`#AIPortfolio` `#InnovationInTech` `#DigitalResume` `#JobSearch` `#TechInnovation` `#WebDevelopment` `#FutureTech`
