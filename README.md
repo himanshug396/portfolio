@@ -18,7 +18,7 @@ Ask a question — the AI avatar replies instantly.
 
 ---
 
-This is not a portfolio.  
+This is not just a portfolio.  
 It’s a **conversation tailored to your curiosity**.
 
 *What will you ask?*
