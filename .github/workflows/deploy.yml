@@ -1,14 +1,6 @@
-name: Deploy to GitHub Pages
-
-on:
-  push:
-    branches:
-      - main  # or your default branch
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -17,6 +9,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
+
+      - name: Install pnpm
+        run: npm install -g pnpm
 
       - name: Install dependencies
         run: pnpm install
@@ -31,4 +26,3 @@ jobs:
         with:
           publish_dir: ./out
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # default publish_branch is gh-pages
