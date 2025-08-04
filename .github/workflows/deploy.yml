@@ -27,7 +27,7 @@ jobs:
         run: pnpm run predeploy
 
       - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v5
+        uses: peaceiris/actions-gh-pages@v4
         with:
           publish_dir: ./out
           github_token: ${{ secrets.GITHUB_TOKEN }}
